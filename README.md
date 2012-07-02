@@ -10,7 +10,7 @@ Accede al [Playlist](http://www.youtube.com/playlist?list=PLEE799B060C329D99&fea
 Los archivos que se encuentran en este repositorio están organizados de la siguiente manera:
 
 El código de los tutoriales reside en su propia carpeta, es decir, si estás buscando los archivos pertenecientes al tutorial "web responsiva" encontrarás el código que necesitas en la carpeta WebResponsiva, la cual contendrá los archivos HTML y subcarpetas para el código escrito en CSS y javascript, así como otra subcarpeta para las imágenes. (En caso de que el tutorial las requiera) Cada tutorial entonces, cuenta con su propia carpeta.
-
+Además, cada archivo contiene al pie de página un link al videotutorial con el que está relacionado, o al primer video, en caso de tratarse de una serie de videos sobre un mismo tema o aplicación.
 ### Contribuciones:
 
 Recuerda que estámos abiertos a tu feedback, reportes de errores, sugerencias en el código y forks. Así que no dudes en realizar alguna de estas acciones.
