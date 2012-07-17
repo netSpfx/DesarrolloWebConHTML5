@@ -1,0 +1,121 @@
+/* Reset */
+
+*{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+
+a:link{
+	text-decoration:none;
+	color:black;
+}
+
+a:visited{
+	color:black;
+}
+
+a:hover{
+
+}
+
+body{
+	font-family: 'Ribeye Marrow', cursive;
+}
+
+/* Cabecera */
+
+#cabecera{
+	width:80%;
+	max-width:1100px;
+	background-color: red;
+	margin: 10px auto;
+}
+
+/* Menu de navegación*/
+
+#menu_navegacion{
+	width:80%;
+	max-width:1100px;
+	background-color: #F7D358;
+	margin:5px auto;
+}
+
+#menu_navegacion ul{
+	padding:10px;
+}
+
+#menu_navegacion ul li{
+	display:inline;
+}
+
+#menu_navegacion ul li:hover{
+	background:red;
+}
+
+/* Sección principal */
+
+#gran_contenedor{
+	width:80%;
+	max-width:1100px;
+	margin:10px auto;
+	background-color: green;
+}
+
+#seccion_principal{
+	background-color: orange;
+	float:left;
+	width:80%;
+}
+
+#seccion_principal article{
+	padding:3%;
+}
+
+#seccion_principal article:nth-child(odd){
+	background-color: #F5DA81;	
+}
+
+#seccion_principal article:nth-child(even){
+	background-color: #F3E2A9;	
+}
+
+
+#seccion_principal article header{
+	text-align:center;
+	margin-bottom:10px;
+}
+
+#seccion_principal article img{
+	width:30%;
+	margin:3px;
+	float:left;
+}
+
+#seccion_principal article footer{
+	text-align:right;
+	clear:left;
+}
+
+/* Sección lateral */
+
+#seccion_lateral{
+	background-color: yellow;
+	float:left;
+	width:19%;
+	margin-left:1%;
+}
+
+.despejar{
+	clear:both;
+}
+
+/* Pie de página*/
+
+#pie_pagina{
+	background-color: red;
+	clear:both;
+	width:80%;
+	max-width:1100px;
+	margin:10px auto;
+}

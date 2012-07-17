@@ -6,64 +6,90 @@
 		<title>Desarrollo con HTML5</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<link href='http://fonts.googleapis.com/css?family=Ribeye+Marrow' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body>
-		<header>
+		<header id="cabecera">
 			<h1>HTML5</h1>
 		</header>
 
-		<nav>
+		<nav id="menu_navegacion">
 			<ul>
-				<li>Inicio</li>
-				<li>Contacto</li>
-				<li>Información</li>
+				<a href="#"><li>Inicio</li></a>
+				<a href="#"><li>Contacto</li></a>
+				<a href="#"><li>Información</li></a>
 			</ul>
 		</nav>
 
-		<section>
-			<article>
-				<header>
-					<h2>El titulo del articulo</h2>
-				</header>
+		<div id="gran_contenedor">
 
-				<img src="images/1.jpg">
+			<section id="seccion_principal">
+				<article>
+					<header>
+						<h2>El título del artículo</h2>
+					</header>
 
-				<p>Introduccíón del articulo</p>
+					<img src="images/1.jpg">
 
-				<footer>
-					<h5>4-7-12</h5>
-				</footer>
-			</article>
+					<p>Introduccíón del artículo</p>
 
-			<article>
-				<header>
-					<h2>El titulo del articulo 2</h2>
-				</header>
+					<footer>
+						<h5>4-7-12</h5>
+					</footer>
+				</article>
 
-				<img src="images/2.png">
+				<article>
+					<header>
+						<h2>El título del artículo 2</h2>
+					</header>
 
-				<p>Introduccíón del articulo</p>
+					<img src="images/2.png">
 
-				<footer>
-					<h5>4-7-12</h5>
-				</footer>
-			</article>
-		</section>
+					<p>Introduccíón del artículo</p>
 
-		<aside>
-			<h3>Ve toda la serie de videos acerca de Python en ElGuapoLinux</h3>
-		</aside>
+					<footer>
+						<h5>4-7-12</h5>
+					</footer>
+				</article>
+				<article>
+					<header>
+						<h2>El título del artculo</h2>
+					</header>
 
-		<footer>
+					<img src="images/1.jpg">
+
+					<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+					<footer>
+						<h5>4-7-12</h5>
+					</footer>
+				</article>
+
+				<article>
+					<header>
+						<h2>El título del articulo 2</h2>
+					</header>
+
+					<img src="images/2.png">
+
+					<p>Introduccíón del artículo</p>
+
+					<footer>
+						<h5>4-7-12</h5>
+					</footer>
+				</article>
+			</section>
+
+			<aside id="seccion_lateral">
+				<h3>Ve toda la serie de videos acerca de Python en ElGuapoLinux</h3>
+			</aside>
+
+			<p class="despejar"></p>
+		</div>
+
+		<footer id="pie_pagina">
 			Sitio desarrollado por Daniel Rodriguez
 		</footer>
-
 	</body>
 </html>
-
-
-<!--
-	Video tutorial relacionado con este código (Link del video con el que comienza, si es que son varios):
-	http://www.youtube.com/watch?v=1hqTCYFKNVE&feature=BFa&list=UUkKzXQRBI1xJ4qc4ZkCyGUw
--->
